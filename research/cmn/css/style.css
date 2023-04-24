@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1000px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(33, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+
+.header-right a:hover{
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.header-right a {
+    float: left;
+    line-height: 65px;
+    color: white;
+    display: block;
+    text-align: center;
+    transition: all 0.5s;
+    width: 120px;
+}
+
+footer {
+    margin-top: 0px;
+    height: 65px;
+    text-align: center;
+    background-color: rgba(33, 49, 52, 0.9);
+    position: sticky;
+    top: 100vh;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+}
+
+.footer-top {
+    padding-top: 15px;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.title {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Lucida Console", "Hiragino Kaku Gothic ProN";
+}
+
+

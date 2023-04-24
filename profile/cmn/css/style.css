@@ -1,0 +1,203 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1000px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(33, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+
+.header-right a:hover{
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.header-right a {
+    float: left;
+    line-height: 65px;
+    color: white;
+    display: block;
+    text-align: center;
+    transition: all 0.5s;
+    width: 120px;
+}
+
+.profile {
+    padding-top: 120px;
+}
+
+.profile h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Lucida Console", "Hiragino Kaku Gothic ProN";
+    /*background-color: aquamarine;*/
+}
+
+
+.column {
+    font-family: "Lucida Console", "Hiragino Kaku Gothic ProN";
+    /*background-color:aquamarine;*/
+    width: 63%;
+    float: left;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.column p {
+    padding-bottom: 20px;
+}
+
+.belong {
+    margin-top: -15px;
+    padding-left: 145px;
+}
+
+.idphoto {
+    /*background-color:blueviolet;*/
+    width: 30%;
+    float: left;
+    padding-top: 25px;
+}
+
+.prof-tab {
+    font-size: 20px;
+    padding-top: 30px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-bottom: 360px;
+}
+
+.top-wrapper {
+    margin-bottom: 50px;
+    
+}
+
+.middle-wrapper {
+    background-color: #f7f7f7;
+    padding-bottom: 100px;
+}
+
+.title {
+    font-family: "Lucida Console", "Hiragino Kaku Gothic ProN";
+    font-size: 30px;
+    padding: 40px 20px 30px 20px;
+    float: left;
+    width: 100%;
+}
+
+.education {
+    padding-top: 50px;
+}
+
+.education-date {
+    float: left;
+    width: 30%;
+    padding-left: 70px;
+}
+
+.education-date p {
+    padding-bottom: 20px; 
+}
+
+.education-right {
+    float: left;
+    width: 70%;  
+}
+
+.education-right p {
+    padding-bottom: 20px; 
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.research-interests {
+    padding-left: 90px;
+}
+
+.research-interests li{
+    padding-bottom: 20px;
+}
+
+.awards-date {
+    float: left;
+    width: 21.5%;
+    padding-left: 70px;
+}
+
+.awards-date p {
+    padding-bottom: 20px; 
+}
+
+.awards-right {
+    float: left;
+    width: 78.5%;  
+}
+
+.awards-right p {
+    padding-bottom: 20px; 
+}
+
+.awards-right a:hover{
+    opacity: 0.6;
+}
+
+    
+.skills {
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+
+.interests {
+    padding-left: 70px;
+}
+
+footer {
+    margin-top: 0px;
+    height: 65px;
+    text-align: center;
+    background-color: rgba(33, 49, 52, 0.9);
+    position: sticky;
+    top: 100vh;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+}
+
+.footer-top {
+    padding-top: 15px;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
